@@ -18,7 +18,7 @@
 .img{
     height: 500px;
     width: 100%;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     position: fixed;
     top: 0;
     z-index: -10;
@@ -182,13 +182,15 @@ ul a:hover{
     border-radius: 50px;
 }
 .right {
-    height: 80%;
+    height: 75%;
     width: 50%;
     display: flex;
     border-radius: 4px;
+    
 }
 .right img{
     border-radius: 5px;
+    width: 665px;
 }
 
 
@@ -244,17 +246,13 @@ ul a:hover{
     padding-inline: 40px;
       
     background-color:rgb(249,250,251) ;
-   
+   gap: 40px;
      padding-top: 30px;
      
-    
-    
-   
-    
-
-    
-    
-    
+    .right img{
+        width: 665px;
+    }
+ 
 }
 .hero6{
     height: 900px;
